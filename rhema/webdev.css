@@ -1,0 +1,49 @@
+body {
+  background-image: url("https://tinyurl.com/y7vgfoac");
+}
+
+p{
+  font-family: 'Sacramento', cursive;
+  font-size: 15px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 55px;
+  text-align: center;
+}
+
+head{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #edeab4; /* background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #f9eded; /* background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #eaeae3; /* Add a color to the "active/current" link */
+    color: black;
+}
+
+#click-button {
+ width: 7%;
+ background-color: #edeab4;
+ color: black;
+ text-align: left;
+}

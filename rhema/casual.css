@@ -1,0 +1,42 @@
+body{
+  background-color: #d0b1ef;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 55px;
+  text-align: center;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: #deccea; /* #dbc0ed */
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black; /* #f2f2f2 */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #f9eded; /* #ddd */
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #e1d7f7;
+    color: black;
+}

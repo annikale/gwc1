@@ -1,0 +1,63 @@
+/*Google FONTS
+ * font-family: 'Rajdhani', sans-serif;
+ */
+
+/* Custom Font*/
+@font-face {
+  font-family: BlackPanther;
+  src: url(blackpanther.ttf);
+}
+
+/*BODY*/
+body {
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+}
+
+/* HEADER */
+.title {
+ font-family: BlackPanther;
+ font-size: 55px;
+ line-height: 10px;
+}
+
+.sub-title {
+ font-size: 40px;
+ line-height: 4px;
+}
+
+.directions {
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.player-name {
+ font-family: 'Rajdhani', sans-serif;
+ font-size: 30px;
+}
+
+#name-button, #tryagain-button {
+ width: 10%;
+ background-color: black;
+ color: white;
+}
+
+/* CARDS */
+.face-card {
+ width: 15%;
+ margin: 5px;
+}
+
+.message {
+ font-size: 20px;
+}
+
+/* FOOTER */
+#footer {
+ font-size: 20px;
+}
+
+.logo {
+ width: 15%;
+ max-width: 15%;
+}
